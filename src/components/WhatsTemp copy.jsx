@@ -124,26 +124,6 @@ function WhatsTemp() {
     e.preventDefault();
     console.log('data:', formData);
     console.log(payData);
-    // try {
-    //   const response = await fetch('https://ff21-2405-201-7-8937-c775-dbe1-c504-a91b.ngrok-free.app/createTemplate/', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json'
-    //     },
-    //     body: payData
-    //   })
-
-    //   if (response.ok) {
-    //     const res = await response.json()
-    //     console.log(res)
-    //     console.log('Data submitted successfully!')
-    //   } else {
-    //     console.error('Error submitting data:', response.statusText)
-
-    //   }
-    // } catch (error) {
-    //   console.error('Error:', error.message)
-    // }
   };
 
   const handleCheckboxChange = (option) => {
